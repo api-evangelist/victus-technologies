@@ -1,8 +1,24 @@
 aid: victus-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/victus-technologies.png
 name: VICTUS Technologies
-description: VICTUS Technologies is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: VICTUS Technologies builds contested-autonomy software for autonomous systems operating
+  in GPS-denied and jamming-heavy environments. Its PhantomNAV platform delivers precise state
+  estimation from the gravity and inertial sensors already embedded in drones, aircraft, submarines,
+  satellites, and ships - no new hardware required - and integrates with Palantir Foundry's AIP
+  infrastructure. VICTUS is backed by Techstars and added to the API Evangelist network. The company
+  publishes a marketing and platform site but exposes no public developer API, SDK, or documentation
+  surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/victus-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Autonomy
+- Navigation
+- Aerospace
+- Artificial Intelligence
+- GPS-Denied
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/victus-technologies-domain-security.yml
 - type: Website
   url: https://getvictus.ai/
+- type: Support
+  url: https://getvictus.ai/contact-us/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
